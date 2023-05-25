@@ -26,8 +26,10 @@ KCC2023 :: 음성 기반 상황 분류 모델의 학습 효율 향상을 위한 
 
 ## 상황 분류 모델(CNN)
 - 데이터 정제 모델의 성능을 평가하기 위해 상황 분류 모델을 활용한다.
+
 ![image](https://github.com/sungsiyul/Natural-Voice-Filtering/assets/86465983/c5faea52-b722-424f-9633-4c2f5a28f6b5)
 - 5가지 위급 상황에 대해 상황별 2,000개의 데이터(총 10,000개)를 본 연구에서 제안하는 데이터 정제모델을 통해 자연스러운 모델만을 확보한다.
+
 ![image](https://github.com/sungsiyul/Natural-Voice-Filtering/assets/86465983/a2e12c92-f116-4285-9843-7eaa4c43beef)
 - 정제된 데이터 7,632개와 정제하지 않은 10,000개의 데이터를 같은 조건의 상황 분류 모델에 학습시키고, 그 결과를 비교한다.
 
