@@ -10,9 +10,9 @@ KCC2023 :: 음성 기반 상황 분류 모델의 학습 효율 향상을 위한 
 - 이러한 요소는 모델의 성능을 크게 저하시키는 문제로 작용하기 때문에 이를 해결하고자 감정 정보를 활용하여 자연스러운 음성을 정제하는 데이터 정제 기법을 제시함.
 
 ## 데이터 셋
-![image](https://github.com/sungsiyul/Natural-Voice-Filtering/assets/86465983/3abde99a-1b13-4faf-a3cd-697a9a388064)
 - 위급상황 (AI hub ‘위급상황 음성/음향 데이터셋’)
 - 일상대화 (ETRI ‘한국어 멀티모달 감정 데이터셋 2020’)
+- 위 두 데이터를 혼합하여 활용함으로써 다양한 상황에 대한 자연스러움 판단
 
 ## 감정 분류 모델(TIM-Net)
 - 음성 데이터를 TIM-Net을 활용하여 7가지 감정(angry, disgust, fear, happy, neutral, sad, surprise)의 확률로 예측한다.
