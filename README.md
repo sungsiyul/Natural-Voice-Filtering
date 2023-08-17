@@ -19,7 +19,8 @@ KCC2023 :: 음성 기반 상황 분류 모델의 학습 효율 향상을 위한 
 - 각 감정에 대한 확률을 감정 정보로 활용하여 자연스러운 음성을 구분하는 모델을 구축한다.
 
 ## 데이터 정제 모델(Semi-Supervised Learning)
-![Semi-Supervised Learning](https://github.com/sungsiyul/Natural-Voice-Filtering/assets/86465983/2eb96a41-2b2b-4e07-a5a2-63f31b997a84)
+![Semi-Supervised Learning](https://github.com/sungsiyul/Natural-Voice-Filtering/assets/86465983/e9695e4a-3c72-4118-9be1-c8c1d1599ed4)
+
 - 데이터 정제를 위한 모델은 준지도 학습을 활용하여 보다 많은 데이터를 학습한다.
 - ① ~ ⑤의 과정을 순차적으로 반복한다. (전체 데이터의 80%를 Merge할 때까지)
 - 예측 신뢰도가 낮은 하위 20% (2,421개)의 데이터는 학습에서 제외한다.
